@@ -1,0 +1,69 @@
+.sidebar {
+  background-color: #333;
+  color: #fff;
+  width: 2000px;
+   padding:0;
+  margin-bottom:50px;
+}
+.side1
+{
+  margin-top:300px;
+}
+.sidebar-menu {
+  list-style-type: none;
+  padding: 50px 20px;
+  margin: 0;
+}
+
+.sidebar-item {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  background-color: #555;
+}
+/* Example CSS for styling */
+.app-container {
+  display: flex;
+}
+
+aside {
+  width:15%;
+  height:682px;
+  margin-bottom:5px;
+  background-color: #333;
+  color: #fff;
+}
+
+ul {
+  padding:340px;
+  margin: 0;
+  list-style: none;
+}
+
+ul li {
+  padding: 100px 20px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: #555;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
