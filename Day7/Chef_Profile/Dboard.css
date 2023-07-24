@@ -1,0 +1,158 @@
+*{
+    border: none;
+    padding: none;
+    color:rgb(29, 28, 28);
+}
+a {
+    color: #fdf6f6;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+.topbar-wrapper{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #181c1c;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 999;  
+;
+}
+.topbar-btn{
+    margin-right: 1rem ;
+}
+.sidebar-wrapper{
+    width: 10vw;
+    height:100vh;
+    position:fixed;
+    left: 0;
+    top: 0;
+    background-color: #181c1c;
+    z-index:999;
+}
+.sidebar-contents{
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+}
+.sidebar-contents li {
+    margin-bottom: 10px;
+padding:10px;
+  }
+  
+  .sidebar-contents a {
+    color: #fffdfd;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .sidebar-contents a:hover {
+    color: #1dae15;
+  }
+.dashboard-wrapper{
+  background-color: #57575b;
+  color: #000;
+  position: relative;
+  /* left: 154.2px; */
+  position: absolute;
+  right: 0;
+  top:0;
+  /* right: 80px; */
+  bottom: 200em;
+  width: 89vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.textStyle {
+    right:0;
+    top:0;
+    left:0; 
+    position: 'fixed';
+    padding:70px;
+    }
+    .image-text {
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 30px;
+      font-weight: bold;
+      color: #111010;
+      margin-top: 10px;
+      right:3vh;
+    }
+  .img-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      color: #111010;
+      text-align: left;
+      margin-top: 10px;
+  }
+    .flip-card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .flip-card {
+      width: 300px;
+      height: 300px;
+      perspective: 1000px;
+      margin: 10px;
+      overflow: hidden;
+      border-radius: 25px;
+    }
+    
+    .flip-card-inner {
+      width: 100%;
+      height: 100%;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+    
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+    }
+    
+    .flip-card-front {
+      background-color: #f1f1f1;
+    }
+    
+    .flip-card-back {
+      transform: rotateY(180deg);
+      background-color: #a2a6a6;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(94, 89, 89);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+    }
+    
+    .flip-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
